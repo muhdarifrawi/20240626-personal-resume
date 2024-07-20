@@ -1,0 +1,14 @@
+@keyframes loading-screen-away {
+    0%{
+        width:100vw
+    }
+    100%{
+        width:0vw;
+    }
+}
+
+.loading-screen-away{
+    animation-name: loading-screen-away;
+    animation-duration:2s;
+    animation-fill-mode: forwards;
+}

@@ -1,0 +1,40 @@
+@media only screen and (max-width:576px) {
+    .name-title {
+        transform: rotate(-90deg);
+        font-size: 4.2rem;
+        position: absolute;
+        bottom: 60vh;
+        right: -45vw;
+        width: 100vh;
+    }
+
+    .view-now{
+        font-size:1.67rem;
+        width:360px;
+        position:absolute;
+        bottom:35px;
+        right:-5px;
+        text-align:left;
+        padding: 10px 0px 10px 25px;
+    }
+}
+
+@media only screen and (min-width:576px) {
+    
+}
+
+@media only screen and (min-width:768px) {
+    /* … */
+}
+
+@media only screen and (min-width:992px) {
+    /* … */
+}
+
+@media only screen and (min-width:1200px) {
+    /* … */
+}
+
+@media only screen and (min-width:1400px) {
+    /* … */
+}
