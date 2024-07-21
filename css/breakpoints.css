@@ -1,6 +1,6 @@
 @media only screen and (max-width:576px) {
     .name-title {
-        transform: rotate(-90deg);
+        /* transform: rotate(-90deg) translateY(-100vw); */
         font-size: 4.2rem;
         position: absolute;
         bottom: 60vh;
