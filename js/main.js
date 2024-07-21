@@ -3,7 +3,7 @@ function checkFullLoad() {
         let currentPage = window.location.pathname.split("/")[1];
         console.log(window.location.pathname);
         // console.log(window.location.pathname.split("/")[1] == "");
-        
+
 
         $("#loading-screen").css("width","100vw")
         setTimeout(function() { 
@@ -19,6 +19,7 @@ function checkFullLoad() {
             }
             else if (currentPage === "about.html"){
                 console.log("about.html checkFullLoad");
+                $(".btn-offcanvas").bind("click", displayNavbar);
             }
             else{
                 console.log("unexpected error occured.");
@@ -47,4 +48,9 @@ function enterActions(){
 
     setTimeout(function(){window.location.replace("about.html");}, 2000);
     
+}
+
+function displayNavbar(){
+    console.log("navbar appear!");
+    $("nav").addClass("mobile-navbar-in");
 }

@@ -141,3 +141,19 @@
     animation-fill-mode: forwards;
     animation-delay: 0.25s;
 }
+
+@keyframes mobile-navbar-in {
+    0%{
+        transform: translateX(-100vw);
+    }
+    100%{
+        transform: translateX(0vw);
+    }
+}
+
+.mobile-navbar-in{
+    animation-name: mobile-navbar-in;
+    animation-duration:1s;
+    animation-fill-mode: forwards;
+    animation-delay: 0.25s;
+}

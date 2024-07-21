@@ -19,11 +19,12 @@ body {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    height:100vh;
+    /* flex-grow: 1; */
+    height:101vh;
     width:0vw;
     background-color: black;
     color:#EEF5E6;
-    position:absolute;
+    position:fixed;
     top:0;
 }
 
@@ -107,7 +108,7 @@ button:hover{
 }
 
 section{
-    padding: 4rem 3rem 0 3rem;
+    padding: 3rem;
 }
 
 .text-body{
@@ -119,3 +120,37 @@ section{
 p{
     padding:0.5rem 0 0.5rem 0;
 }
+
+.first-word{
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.image{
+    width:100%;
+    padding:0 0 2rem 0;
+}
+
+.potrait-img{
+    width:100%;
+}
+
+nav{
+    position:absolute;
+    z-index:1;
+    display: flex;
+    height:4rem;
+    width:100vw;
+    background-color: black;
+    transform: translateX(-100vw);
+    /* padding:1rem; */
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.5rem;
+    
+}
+
+nav a{
+    color:white;
+}
+
