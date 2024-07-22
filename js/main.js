@@ -1,10 +1,14 @@
 function checkFullLoad() {
     $(window).on("load",function () {
-        let currentPage = window.location.pathname.split("/")[1];
+        // let currentPage = window.location.pathname.split("/")[1];
+        let splitPathname = window.location.pathname.split("/");
+        let splitPathnameLength = splitPathname.length;
+        let currentPage = splitPathname[splitPathnameLength - 1];
         console.log(window.location.pathname);
+        console.log(splitPathname);
+        console.log(splitPathname.length);
         console.log(currentPage);
         // console.log(window.location.pathname.split("/")[1] == "");
-
 
         $("#loading-screen").css("width","100vw")
         setTimeout(function() { 
