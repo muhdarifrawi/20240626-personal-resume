@@ -2,6 +2,7 @@ function checkFullLoad() {
     $(window).on("load",function () {
         let currentPage = window.location.pathname.split("/")[1];
         console.log(window.location.pathname);
+        console.log(currentPage);
         // console.log(window.location.pathname.split("/")[1] == "");
 
 
