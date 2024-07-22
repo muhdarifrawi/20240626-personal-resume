@@ -51,7 +51,7 @@ body {
 #right-hero {
     width: 50vw;
     height: 100vh;
-    background-image: url("/images/myself_rotated.jpg");
+    background-image: url("images/myself_rotated.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
